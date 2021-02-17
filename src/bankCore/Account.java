@@ -43,8 +43,4 @@ public class Account {
 		return id == other.id;
 	}
 	
-	public void printDemoAccount() {
-		System.out.println("id: " + this.getId() +", balance: "+  this.getBalance());
-	}
-
 }
