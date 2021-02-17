@@ -42,5 +42,9 @@ public class Account {
 		Account other = (Account) obj;
 		return id == other.id;
 	}
+	
+	public void printDemoAccount() {
+		System.out.println("id: " + this.getId() +", balance: "+  this.getBalance());
+	}
 
 }
